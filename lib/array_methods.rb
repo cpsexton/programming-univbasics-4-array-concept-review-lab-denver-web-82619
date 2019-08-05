@@ -7,7 +7,7 @@ end
 
 def find_max_value(array)
  
- array.max_by(element)
+ array.max_by
   
 end
 
