@@ -14,6 +14,7 @@ end
 
 def find_min_value(array)
  array.length.times { |array| 
- puts array.min
+ min = array.min
+ puts min
  }
 end
