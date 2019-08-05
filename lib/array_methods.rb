@@ -6,7 +6,7 @@ end
 
 def find_max_value(array)
  array.max_by { |element|
-  element.field
+  puts array[element]
  }
 end
 
