@@ -2,7 +2,7 @@ def find_element_index(array, value_to_find)
   array.each { |value_to_find|
  a = array[index]
  puts array[a]
- #}
+ }
 end
 
 def find_max_value(array)
