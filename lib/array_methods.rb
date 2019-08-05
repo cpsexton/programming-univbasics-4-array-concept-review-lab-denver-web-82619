@@ -6,8 +6,8 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
- array.max { |element|
-  puts array[element]
+ array.each { |element|
+  puts array[element.max]
  }
 end
 
