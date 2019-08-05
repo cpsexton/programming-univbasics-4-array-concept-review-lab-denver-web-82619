@@ -6,7 +6,7 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
- 5.times { |element|
+ array.length.times { |array|
  array.max
     }
 end
