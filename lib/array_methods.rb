@@ -7,7 +7,7 @@ end
 
 def find_max_value(array)
  array.each { |element|
-  puts array[element.max]
+  puts array.max
  }
 end
 
