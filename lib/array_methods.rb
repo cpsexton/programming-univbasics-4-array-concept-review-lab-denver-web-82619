@@ -1,6 +1,6 @@
 def find_element_index(array, value_to_find)
   array.each { |value_to_find|
- a = array[index]
+ a = array[value_to_find]
  puts array[a]
  }
 end
