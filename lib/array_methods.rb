@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-  array.map { |element|
+  array. { |element|
   array.index(element)
  
  }
